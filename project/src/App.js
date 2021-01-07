@@ -1,12 +1,15 @@
 import logo from "./images/workspaces-24px (1).svg";
 import "./App.css";
+import Exhead from "./Exhead.js";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
+      <Exhead></Exhead>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p class="para">WINTER OF CODE</p>
+        <p class="para">WE DESIGN YOUR SPACE</p>
       </header>
     </div>
   );

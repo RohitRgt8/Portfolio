@@ -8,7 +8,7 @@
 
 .para {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: rgb(255, 255, 255);
   top: 50%;
 }
@@ -45,4 +45,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.icon {
+  margin: auto;
+  align-items: left;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+}
+.navbar {
+  font-style: italic;
+  font-weight: bold;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.head {
+  justify-content: center;
 }
