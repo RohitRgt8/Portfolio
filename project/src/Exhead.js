@@ -10,7 +10,6 @@ function Exhead() {
         <div class="navbar">
           <a href="#HOME">HOME </a>
           <a href="#ABOUT">ABOUT </a>
-          <a href="#CONTACT">CONTACT</a>
         </div>
       </div>
     </div>

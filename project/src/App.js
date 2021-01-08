@@ -2,6 +2,7 @@ import logo from "./images/workspaces-24px (1).svg";
 import "./App.css";
 import Exhead from "./Exhead.js";
 import React from "react";
+import Exfoot from "./Exfoot.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p class="para">WE DESIGN YOUR SPACE</p>
       </header>
+      <Exfoot></Exfoot>
     </div>
   );
 }
