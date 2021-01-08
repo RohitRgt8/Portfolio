@@ -10,7 +10,7 @@ function App() {
       <Exhead></Exhead>
       <header class="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p class="para">WE DESIGN YOUR SPACE</p>
+        <p class="para">DON'T JUST SURVIVE, THRIVE!!</p>
       </header>
       <Exfoot></Exfoot>
     </div>
