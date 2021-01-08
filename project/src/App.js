@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Exhead></Exhead>
-      <header className="App-header">
+      <header class="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p class="para">WE DESIGN YOUR SPACE</p>
       </header>
