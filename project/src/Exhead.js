@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import logo from "./images/rgt.png";
 import logo1 from "./images/IMG_8094.JPG";
+import logo2 from "./images/laptop.jpg";
+import Navbar from "react-bootstrap/Navbar";
 
 function Exhead() {
   return (
@@ -9,14 +11,16 @@ function Exhead() {
       <div class="hom" id="HOME">
         <div class="header">
           <img src={logo} className="image" alt="logo" />
+
           <div class="container">
-            <div class="navbar">
+            <div class="navbar" fixed="top">
               <a href="#HOME">Home </a>
               <a href="#ABOUTME">About Me</a>
               <a href="#CAREER">Career</a>
               <a href="#CONTACTME">Contact Me</a>
             </div>
           </div>
+
           <div class="body">
             <p class="pbody">Hi, All!!</p>
             <p class="pbody">Welcome</p>
@@ -24,12 +28,6 @@ function Exhead() {
         </div>
       </div>
       <div class="about" id="ABOUTME">
-        <div class="navbar">
-          <a href="#HOME">Home </a>
-          <a href="#ABOUTME">About Me</a>
-          <a href="#CAREER">Career</a>
-          <a href="#CONTACTME">Contact Me</a>
-        </div>
         <div class="am">
           <img src={logo1} class="myimg" alt="me" />
           <div class="bar2">
@@ -59,6 +57,9 @@ function Exhead() {
             <p class="bio">Member of IEEE FISAT SB since 2019.</p>
           </div>
         </div>
+      </div>
+      <div class="career" id="CAREER">
+        <div class="car"></div>
       </div>
     </div>
   );
