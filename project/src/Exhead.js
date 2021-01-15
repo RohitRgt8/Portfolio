@@ -59,7 +59,30 @@ function Exhead() {
         </div>
       </div>
       <div class="career" id="CAREER">
-        <div class="car"></div>
+        <div class="education">
+          <h1 class="heading">Education</h1>
+          <h2 class="subhead">AISCE</h2>
+          <p class="desc"> ST. ANN'S PUBLIC SCHOOL </p>
+          <p class="desc"> 2017 </p>
+          <p class="desc"> 10.0 CGPA </p>
+          <p> </p>
+          <h2 class="subhead"> AISSCE </h2>
+          <p class="desc"> ST. ANN'S PUBLIC SCHOOL </p>
+          <p class="desc"> 2019 </p>
+          <p class="desc"> 93.6 %</p>
+          <p> </p>
+          <h2 class="subhead"> B. Tech </h2>
+          <p class="desc"> COMPUTER SCIENCE AND ENGINEERING </p>
+          <p class="desc"> 2019 -2023 </p>
+        </div>
+        <div class="more">
+          <h1 class="heading"> More </h1>
+          <h2 class="sub">PROG LANG :</h2>
+          <p class="desc">Python, Java, JavaScript, C, C++</p>
+          <h2 class="sub"> INTERESTED FIELDS </h2>
+          <p class="desc"> App Development (React - Native)</p>
+          <p class="desc"> Web Development (React Js)</p>
+        </div>
       </div>
     </div>
   );
