@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.870f4961.chunk.css",
+    "main.js": "/Portfolio/static/js/main.fb7d26f1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.fb7d26f1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.7571ce1f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.7571ce1f.js.map",
+    "static/js/2.11c6d6cd.chunk.js": "/Portfolio/static/js/2.11c6d6cd.chunk.js",
+    "static/js/2.11c6d6cd.chunk.js.map": "/Portfolio/static/js/2.11c6d6cd.chunk.js.map",
+    "static/js/3.70a1fa1f.chunk.js": "/Portfolio/static/js/3.70a1fa1f.chunk.js",
+    "static/js/3.70a1fa1f.chunk.js.map": "/Portfolio/static/js/3.70a1fa1f.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.870f4961.chunk.css.map": "/Portfolio/static/css/main.870f4961.chunk.css.map",
+    "static/js/2.11c6d6cd.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.11c6d6cd.chunk.js.LICENSE.txt",
+    "static/media/IMG_8094.6118b880.JPG": "/Portfolio/static/media/IMG_8094.6118b880.JPG",
+    "static/media/git.346f5b2b.png": "/Portfolio/static/media/git.346f5b2b.png",
+    "static/media/insta.fa104452.png": "/Portfolio/static/media/insta.fa104452.png",
+    "static/media/laptop.4d5347ce.jpg": "/Portfolio/static/media/laptop.4d5347ce.jpg",
+    "static/media/phone.6e145546.png": "/Portfolio/static/media/phone.6e145546.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7571ce1f.js",
+    "static/js/2.11c6d6cd.chunk.js",
+    "static/css/main.870f4961.chunk.css",
+    "static/js/main.fb7d26f1.chunk.js"
+  ]
+}
