@@ -68,10 +68,13 @@
   color: #000000;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 .navbar a:hover {
   background-color: #ddd;
+}
+.navbar a.active {
+  background-color: white;
 }
 
 .image {
@@ -111,6 +114,21 @@ navbar .a .right {
   padding: 30px;
   border-width: 8px;
   height: 100vh;
+  animation-name: fadeInUp;
+  animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 .bar2 {
   display: flex;
@@ -175,6 +193,128 @@ h1 {
   opacity: 0.7;
 }
 .more {
-  margin-top: 80px;
+  margin-top: 150px;
   padding: 30px;
+}
+.sub {
+  color: white;
+}
+.contact {
+  background-image: url("https://wallpapercave.com/wp/v4tQ0HK.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.location {
+  padding: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.locimg {
+  height: 50px;
+  width: 70px;
+  opacity: 0.8;
+}
+.l {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.contactinfo {
+  margin-top: 160px;
+  margin-left: 50px;
+}
+.mailimg {
+  height: 60px;
+  width: 70px;
+}
+.phnimg {
+  height: 60px;
+  width: 70px;
+}
+.mail {
+  text-align: center;
+}
+.phone {
+  text-align: center;
+}
+.details {
+  color: white;
+  opacity: 0.8;
+  font-weight: bold;
+}
+.topbtn {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.btn {
+  border-radius: 5px;
+  height: 20px;
+  width: 100px;
+  background-color: grey;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 82%;
+}
+.b {
+  border-radius: 5px;
+  height: 20px;
+  width: 100px;
+  background-color: grey;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 85vh;
+  margin-left: 400px;
+}
+.but {
+  border-radius: 5px;
+  height: 20px;
+  width: 100px;
+  background-color: grey;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 85vh;
+  margin-left: 70px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 135px;
+}
+.inimg {
+  height: 60px;
+  width: 70px;
+  opacity: 0.8;
+}
+.limg {
+  height: 40px;
+  width: 40px;
+  opacity: 0.8;
+}
+.gimg {
+  height: 75px;
+  width: 100px;
+  opacity: 0.8;
+}
+.insta {
+  padding: 15px;
+}
+.linkedin {
+  padding: 15px;
+  margin-left: 15px;
+}
+.git {
+  padding: 15px;
+  margin-left: -15px;
 }

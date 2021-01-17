@@ -3,11 +3,18 @@ import "./App.css";
 import logo from "./images/rgt.png";
 import logo1 from "./images/IMG_8094.JPG";
 import logo2 from "./images/laptop.jpg";
-import Navbar from "react-bootstrap/Navbar";
+
+import logo3 from "./images/location-icon.png";
+import logo4 from "./images/mail.png";
+import logo5 from "./images/phone.png";
+import logo6 from "./images/insta.png";
+import logo7 from "./images/linkedin.png";
+import logo8 from "./images/git.png";
 
 function Exhead() {
   return (
     <div class="head">
+      <a name="top"></a>
       <div class="hom" id="HOME">
         <div class="header">
           <img src={logo} className="image" alt="logo" />
@@ -57,6 +64,11 @@ function Exhead() {
             <p class="bio">Member of IEEE FISAT SB since 2019.</p>
           </div>
         </div>
+        <div class="btn">
+          <a class="topbtn" href="#top">
+            Back to Top
+          </a>
+        </div>
       </div>
       <div class="career" id="CAREER">
         <div class="education">
@@ -76,12 +88,64 @@ function Exhead() {
           <p class="desc"> 2019 -2023 </p>
         </div>
         <div class="more">
-          <h1 class="heading"> More </h1>
           <h2 class="sub">PROG LANG :</h2>
           <p class="desc">Python, Java, JavaScript, C, C++</p>
-          <h2 class="sub"> INTERESTED FIELDS </h2>
+          <h2 class="sub"> INTERESTED FIELDS : </h2>
           <p class="desc"> App Development (React - Native)</p>
           <p class="desc"> Web Development (React Js)</p>
+        </div>
+        <div class="b">
+          <a class="topbtn" href="#top">
+            Back to Top
+          </a>
+        </div>
+      </div>
+      <div class="contact" id="CONTACTME">
+        <div class="location">
+          <a href="https://www.google.com/maps/place/Federal+Institute+of+Science+And+Technology+(FISAT)%C2%AE/@10.2314251,76.4073777,520m/data=!3m1!1e3!4m5!3m4!1s0x0:0xf048b9ebcbd2af28!8m2!3d10.2315176!4d76.4088397">
+            <img src={logo3} class="locimg" alt="locat" />
+          </a>
+          <p class="l">
+            <p>Federal Institute of Science and Technology</p>
+            <p>Hormis Nagar ,</p>
+            <p>Mookanoor, </p>
+            <p>Angamaly Kerala 683577</p>
+          </p>
+        </div>
+        <div class="social">
+          <div class="insta">
+            <a href="https://www.instagram.com/rohit_georgergt8/">
+              <img src={logo6} class="inimg" alt="insta" />
+            </a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/rohit-george-67590a194/">
+              <img src={logo7} class="limg" alt="linkedin" />
+            </a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/RohitRgt8">
+              <img src={logo8} class="gimg" alt="github" />
+            </a>
+          </div>
+        </div>
+        <div class="contactinfo">
+          <div class="mail">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+              <img src={logo4} class="mailimg" alt="email" />
+            </a>
+            <p class="details">rohitgeorge2000@gmail.com</p>
+          </div>
+          <div class="phone">
+            <img src={logo5} class="phnimg" alt="phn" />
+
+            <p class="details"> +91 - 7356853296</p>
+          </div>
+        </div>
+        <div class="but">
+          <a class="topbtn" href="#top">
+            Back to Top
+          </a>
         </div>
       </div>
     </div>
